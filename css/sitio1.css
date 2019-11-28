@@ -1,0 +1,162 @@
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.ttf') format('truetype');
+}
+
+/*O tambien puede ser: 
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.ttf') format('ttf');
+}
+
+/*
+
+/*GENERAL*/
+
+*{
+	margin:0;
+	padding:0;
+
+	--webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing:border-box;
+	box-sizing: border-box;
+	
+}
+
+body{
+	font-family: 'OpenSans';
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+/*CONTENEDOR PRINCIAPL*/
+
+.contenedor{
+
+	/*centra contenido*/
+	margin:auto;
+	width: 90%;
+	max-width: 1000px;
+	
+}
+
+/*CONTENEDOR DEL MAIN*/
+
+.contenedor2{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+/*HEADER*/
+
+header{
+	width: 100%;
+	padding: 50px 0;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a{
+
+	color: white;
+	text-decoration: none;
+	margin-right:40px;
+	font-size: 18px;
+
+
+}
+
+header nav a:hover{
+	text-decoration: underline;
+
+
+}
+
+.logo{
+	width: 80px;
+}
+
+/*SECTION*/
+
+.main{
+	background: white;
+	width: 70%;
+	padding:20px;
+}
+
+
+.main article h2{
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+
+.main article p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/*ASIDE*/
+
+aside{
+	width: 30%;
+	background: #537dca;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.publicidad{
+	
+	
+	color:white;
+	padding: 50px 0;
+	background: #4264a2;
+	height: 20%;
+}
+
+/*FOOTER*/
+
+footer{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: rgba(255,255,255,.2);
+	padding: 20px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer .autor{
+	color:white;
+}
+
+footer .redes a{
+
+	color:white;
+	margin-left:20px;
+	text-decoration: none;
+
+}
+
+footer .redes a:hover{
+	text-decoration: underline;
+}
+
+

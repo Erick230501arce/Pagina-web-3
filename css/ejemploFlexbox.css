@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.contenedor{
+
+	width: 80%;
+	background: #212d40;
+	
+}
+
+.hijo{
+	width: 100px;
+	height: 100px;
+	background: #f79256;
+	text-align: center;
+	margin:20px;
+	padding: 20px;
+	font-size: 40px;
+	color:#ffffff;
+}
+
